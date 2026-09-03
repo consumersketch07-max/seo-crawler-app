@@ -92,13 +92,56 @@ st.markdown("""
         font-size: 0.9rem;
         line-height: 1.4;
     }
+    /* Animated Spider */
+.stApp::after {
+    content: "🕷️";
+    position: fixed;
+    left: 10px;
+    top: 90px;
+    font-size: 32px;
+    z-index: 999999;
+    pointer-events: none;
+    animation: spiderWalk 12s linear infinite;
+}
+
+@keyframes spiderWalk {
+    0% {
+        left: 10px;
+        top: 90px;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        left: calc(100vw - 55px);
+        top: 90px;
+        transform: rotate(90deg);
+    }
+
+    50% {
+        left: calc(100vw - 55px);
+        top: calc(100vh - 80px);
+        transform: rotate(180deg);
+    }
+
+    75% {
+        left: 10px;
+        top: calc(100vh - 80px);
+        transform: rotate(270deg);
+    }
+
+    100% {
+        left: 10px;
+        top: 90px;
+        transform: rotate(360deg);
+    }
+}
 </style>
 """, unsafe_allow_html=True)
 
 # App Header
 st.markdown("""
 <div class="main-header">
-    <h1 class="main-title">🕷️ RK Vohra Spider</h1>
+    <h1 class="main-title">RK Vohra Spider</h1>
     <p class="main-subtitle">High-speed technical SEO crawler & site audit web app — crawl up to 10,000+ URLs with zero limits!</p>
 </div>
 """, unsafe_allow_html=True)
