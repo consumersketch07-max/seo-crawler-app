@@ -17,7 +17,7 @@ from exporter import generate_excel_report, generate_csv
 
 # 1. Streamlit Page Configuration - Must be first
 st.set_page_config(
-    page_title="Amir's SEO Spider",
+    page_title="RK Vohra Spider",
     page_icon="🕷️",
     layout="wide",
     initial_sidebar_state="expanded"
