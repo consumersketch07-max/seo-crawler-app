@@ -52,6 +52,7 @@ st.markdown("""
         border-radius: 10px;
         border: 1px solid #334155;
         text-align: center;
+        margin-bottom: 16px;
     }
     .metric-value {
         font-size: 1.8rem;
