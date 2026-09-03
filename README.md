@@ -1,4 +1,4 @@
-# 🕷️ Amir's SEO Spider (Web App)
+# 🕷️ RK Vohra Spider (Web App)
 
 A modern, high-speed, and feature-rich **Technical SEO Crawler & Audit Web Application** built with **Python** & **Streamlit**.
 
