@@ -98,7 +98,7 @@ st.markdown("""
 # App Header
 st.markdown("""
 <div class="main-header">
-    <h1 class="main-title">🕷️ Amir's SEO Spider</h1>
+    <h1 class="main-title">🕷️ RK Vohra Spider</h1>
     <p class="main-subtitle">High-speed technical SEO crawler & site audit web app — crawl up to 10,000+ URLs with zero limits!</p>
 </div>
 """, unsafe_allow_html=True)
